@@ -2,6 +2,7 @@ import React, { useEffect } from 'react'
 import axios from 'axios'
 
 const HomePage = () => {
+  const value = 'test1'
   const paramiter = window.location.search
   return (
     <div className='homepage'>
@@ -20,7 +21,7 @@ const HomePage = () => {
         <ul>"react-scripts": "3.1.2",</ul>
         <ul>"semantic-ui-react": "^0.88.2"</ul>
       </ol>
-      <a href='line://app/1653734453-y5qv2ppm?test=test'>test</a>
+      <a href={`line://app/1653734453-y5qv2ppm?test=${value}`}>test</a>
     </div>
   )
 }
