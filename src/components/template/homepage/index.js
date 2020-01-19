@@ -1,12 +1,11 @@
-import React from 'react'
+import React, { useEffect } from 'react'
 import axios from 'axios'
 
-const login =()=>{
-}
-
 const HomePage = () => {
+  const paramiter = window.location.search
   return (
     <div className='homepage'>
+      {paramiter}
       <p className='color-green'>HomePage</p>
       <p className='color-green'>Hi this is free template by Zompong</p>
       <p className='color-green'>Dependency list here</p>
@@ -21,6 +20,7 @@ const HomePage = () => {
         <ul>"react-scripts": "3.1.2",</ul>
         <ul>"semantic-ui-react": "^0.88.2"</ul>
       </ol>
+      <a href='line://app/1653734453-y5qv2ppm?test=test'>test</a>
     </div>
   )
 }
