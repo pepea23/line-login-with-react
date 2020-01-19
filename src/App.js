@@ -23,7 +23,7 @@ export default function App() {
   }
 
   useEffect(() => {
-    initializeLiff('1653734453-y5qv2ppm')
+    initializeLiff('1653659118-kzg25KoK')
   }, [])
   return (
     <Router>
